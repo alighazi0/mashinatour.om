@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mashina </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/templatemo-main.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+
+
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+        <style>
+
+/* Popup container */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Popup content */
+.popup-content {
+    position: relative;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Button container */
+.button-container {
+    margin-top: 20px;
+}
+
+/* Buttons */
+.button-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+    
+            /* Close button */
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+    
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            
+        </style>
+    </head>
+
+
+    
+    
+<!--
+Vanilla Template
+https://templatemo.com/tm-526-vanilla
+-->
+<body>
+
+    <div class="fixed-side-navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="login.php"><span>login</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#home"><span>Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#services"><span>About Us</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#our-story"><span>AI Tool</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio"><span>Our Service</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#our-stuff"><span>Our Stuff</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-us"><span>Contact Us</span></a></li>
+        </ul>
+    </div>
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="first-content">
+                <h1>Mashina</h1>
+               
+            </div>
+        </div>
+    </div>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Styling H1</title>
+        <style>
+            .service-content h1 {
+                font-size: 32px;
+                color: #fff; 
+                font-weight: bold;
+                margin-bottom: 20px;
+                margin-top: 0; 
+                position: relative;
+                top: -50px; 
+                z-index: 1; 
+                background-color: rgba(0,0,0,0.5); /* Add a semi-transparent background for better readability */
+                padding: 10px 20px; 
+                display: inline-block;
+                border-radius: 5px;
+            }
+
+  
+        .small-textbox {
+        width: 300px; /* Adjust the width as needed */
+    }
+
+    .left-align {
+        text-align: left;
+    }
+
+    /* Style for text */
+    label {
+        font-size: 20px;
+        color: #f7f5f5;
+    }
+
+    /* Style for button */
+    .btn-primary {
+        background-color: #f57317;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+    h1 {
+        font-size: 32px;
+        color: #f8f7f7;
+        text-align: center;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        border: 1px solid #040303;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+
+    .wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+    position: relative;
+}
+
+.image-container {
+    width: 45%;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: -200px; /* Adjust the distance from the right edge of the image */
+    width: 200px; /* Adjust the width of the caption */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: normal; /* Allow text to wrap */
+}
+h1.highlight {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333; /* Choose your desired color */
+    background-color: #f8f9fa; /* Choose your highlight color */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    display: inline-block; /* Ensures the background color spans the width of the text */
+}
+
+
+    
+        </style>
+    </head>
+    <body>
+        <div class="service-content" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8"> 
+                        <h1> Our Team </h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <h4>Company Director</h4>
+                                    <div class="line-dec"></div>
+                                    <p>Ghaith Ghazi Al Hashemi</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <h4>Chief executive officer</h4>
+                                    <div class="line-dec"></div>
+                                    <p>Noor Al-Huda Muhammad Salem Al-Sibai</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <h4>Director of Marketing</h4>
+                                    <div class="line-dec"></div>
+                                    <p>Hajar Juma Muzaffar Al-Ghailaniyya</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <h4>Social Relations Manager</h4>
+                                    <div class="line-dec"></div>
+                                    <p>Israa Ali Assi aleibrihand, 
+                                    Kawthar Abdullah Khasib Al-Busaidi</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <h4>Finance manager</h4>
+                                    <div class="line-dec"></div>
+                                    <p>Hamad Khalfan Muhammad Al Shuaili</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
+
+
+    <div class="tabs-content" id="our-story">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h1>Same Data To Create A Suitable Table For You!!</h1>
+                    <br>
+                    <br>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="tripType">The Type Of Trips You Prefer?</label>
+                            <select class="form-control small-textbox left-align" id="tripType">
+                                <option value="beach">Beach</option>
+                                <option value="mountain">Mountain</option>
+                                <option value="city">City</option>
+                                <option value="adventure">Adventure</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="textbox2">Where Do You Want To 
+                                Spend Your Vacation?</label>
+                            <input type="text" class="form-control small-textbox left-align" id="textbox2">
+                        </div>
+                        <div class="form-group">
+                            <label for="textbox3">What Is Your Budget For THis Trip?</label>
+                            <input type="text" class="form-control small-textbox left-align" id="textbox3">
+                        </div>
+                        <div class="form-group">
+                            <label for="textbox4">How Many Days Will You Spend?</label>
+                            <input type="text" class="form-control small-textbox left-align" id="textbox4">
+                        </div>
+                        <br>
+                        <br>
+
+                        <button type="submit" class="btn btn-primary">Look at your schedule</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <div class="parallax-content projects-content" id="portfolio">
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <h2>Item added to cart!</h2>
+                <p>Your item has been added to the cart.</p>
+                <div class="button-container">
+                    <button>View Cart</button>
+                    <button>Continue Shopping</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="owl-testimonials" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="item">
+                                <div class="testimonials-item">
+                                    <a href="img/ni7.jpg" data-lightbox="image-1"><img src="img/Untitled design 6.PNG" alt=""></a>
+                                    <div class="text-content">
+                                        <h2>NAZWAH</h2>
+                                        <h3>if you need to konw moer clicke show</h3>
+                                        <br>
+                                        <button onclick="showPopup()">Show</button>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/sur1.jpg" data-lightbox="image-1"><img src="img/Untitled design 5.PNG" alt=""></a>
+                                <div class="text-content">
+                                    <h2>MUSCAT</h2>
+                                    <h3>if you need to konw moer clicke show</h3>                                   
+                                    <br>
+                                    <button onclick="showPopup()">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/Untitled design 3.PNG" data-lightbox="image-1"><img src="img/Untitled design 2.PNG" alt=""></a>
+                                <div class="text-content">
+                                    <h2>MUSANDAM</h2>
+                                    <h3>if you need to konw moer clicke show</h3>
+                                    <br>
+                                    <button onclick="showPopup()">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/salalah3.jpg" data-lightbox="image-1"><img src="img/Untitled design 7.PNG" alt=""></a>
+                                <div class="text-content">
+                                    <h2>Dhofar</h2>
+                                    <h3>if you need to konw moer clicke show</h3>
+                                    <br>
+                                    <button onclick="showPopup()">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/Muscat2.jpg" data-lightbox="image-1"><img src="img/Untitled design 0.PNG" alt=""></a>
+                                <div class="text-content">
+                                    <h2>South Sharqiyah</h2>
+                                    <h3>if you need to konw moer clicke show</h3>
+                                    <br>
+                                    <button onclick="showPopup()">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/Untitled design 2.PNG" data-lightbox="image-1"><img src="img/Untitled design 2.PNG" alt=""></a>
+                                <div class="text-content">
+                                    <h2>North Sharqiyah</h2>
+                                    <h3>if you need to konw moer clicke show</h3>
+                                    <br>
+                                    <button onclick="showPopup()">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/2nd-big-item.jpg" data-lightbox="image-1"><img src="img/2nd-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Antique Decoration Photo</h4>
+                                    <span>$84.50</span>
+                                    <br>
+                                    <button onclick="showPopup()">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/1st-big-item.jpg" data-lightbox="image-1"><img src="img/1st-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Awesome Notes Book</h4>
+                                    <span>$96.75</span>
+                                    <br>
+                                    <button onclick="showPopup()">Add</button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tabs-content" id="our-stuff">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h1 class="highlight"> Our Stuff </h1>
+    
+                    <div id="slideshow">
+                        <div class="wrapper">
+                            <div class="image-container">
+                                <a href="img/st3.png" data-lightbox="image-1"><img src="img/st3.png" alt=""></a>
+                                <div class="caption">My name is Ghaith, from Jalan. I speak 3 languages: English, Arabic, and Italian.
+                                </div>
+                            </div>
+                            <div class="image-container">
+                                <a href="img/st7.jpg" data-lightbox="image-2"><img src="img/st7.png" alt=""></a>
+                                <div class="caption">My name is ALI, from Muscat. I speak 3 languages: English, Arabic,and Italian.</div>
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <div class="image-container">
+                                <a href="img/st6.png" data-lightbox="image-3"><img src="img/st6.png" alt=""></a>
+                                <div class="caption">My name is Noor, from Nizwa. I speak 4 languages: Arabic,English, French, and Italian.</div>
+                            </div>
+                            <div class="image-container">
+                                <a href="img/st3.png" data-lightbox="image-4"><img src="img/st3.png" alt=""></a>
+                                <div class="caption">Fourth paragraph below the image</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script>
+        var slideIndex = 0;
+        carousel();
+    
+        function carousel() {
+            var slides = document.getElementById("slideshow").getElementsByClassName("wrapper");
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(carousel, 5000); // Change image every 5 seconds
+        }
+    </script>
+    
+
+
+    <div class="parallax-content contact-content" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <div class="row">
+                            <form id="contact" action="" method="post">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                      <fieldset>
+                                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                      </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                      <fieldset>
+                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                      </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                      <fieldset>
+                                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                      </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                      <fieldset>
+                                        <button type="submit" id="form-submit" class="btn">Send Message</button>
+                                      </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="map">
+                    <!-- How to change your own map point
+                           1. Go to Google Maps
+                           2. Click on your location point
+                           3. Click "Share" and choose "Embed map" tab
+                           4. Copy only URL and paste it within the src="" field below
+                    -->
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748163.72422707!2d55.541606531502445!3d23.449058460695973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ffa8879aafc9%3A0xdb53876d0d79a72c!2sMuscat!5e0!3m2!1sen!2som!4v1706467624845!5m2!1sen!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="primary-button">
+                        <a href="#home">Back To Top</a>
+                    </div>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                    <p>Copyright &copy; 2023 Mashina -Design:Mashina Team </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            document.getElementById(cityName).style.display = "block";  
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+
+
+
+  function showPopup() {
+    var popups = document.querySelectorAll('.popup');
+    popups.forEach(function(popup) {
+        popup.style.display = "block";
+        setTimeout(function() {
+            popup.style.display = "none";
+        }, 5000); // Hide after 2 seconds
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var addButtons = document.querySelectorAll('.text-content button');
+    addButtons.forEach(function(button) {
+        button.addEventListener('click', showPopup);
+    });
+});
+    </script>
+</body>
+</html>
